@@ -1,0 +1,154 @@
+@font-face {
+    font-family: yekan;
+    src: url(../font/iranyekanwebbold.ttf);
+}
+
+*{
+    font-family: yekan;
+    box-sizing: border-box;
+}
+
+body{
+
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+/*nav*/
+.my-li{
+    color: #0000008c;
+    transition: all 0.5s;
+}
+
+.my-li:hover{
+    color: #343a40;
+}
+
+.my-button{
+    border: 1px solid #999;
+}
+
+.line1 , .line2 , .line3{
+    width: 23px;
+    margin: 5px;
+    height: 3px;
+    transition: all 0.4s;
+}
+/*nav*/
+/*header*/
+header{
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+}
+
+@media(max-width : 650px){
+    .my-header-h1{
+        font-size: 77px;
+    }
+}
+
+@media(max-width : 576px){
+    .project-img{
+        width: 100px;
+        height: 300px;
+    }
+}
+
+.my-header-h1{
+    background: linear-gradient(180deg, #1e30f3 0% , #e21e80 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+
+.my-h1-btn{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50% ,50%);
+}
+
+
+.img-header{
+    background: linear-gradient(150deg, #1e30f3 0% , #e21e80 100%);
+    width: 80%;
+    height: 70vh;
+    border-radius: 50px;
+    
+}
+
+.my-img{
+    width: 80%;
+    margin-top: -105px;
+    background-size: cover;
+    background-position: center;
+    
+}
+/*header*/
+/*about me*/
+.about-me{
+    background-color: #f8f9fa;
+}
+
+.about-me-h1{
+    background: linear-gradient(180deg, #1e30f3 0% , #e21e80 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+
+.about-me-btn{
+    background: linear-gradient(180deg, #1e30f3 0% , #e21e80 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+/*about me*/
+/*projects*/
+.projects{
+    background-color: #f8f9fa;
+}
+
+.project-h1{
+    background: linear-gradient(180deg, #1e30f3 0% , #e21e80 100%);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+}
+
+.project-img{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.project-contact{
+    background: linear-gradient(150deg, #1e30f3 0% , #e21e80 100%);
+}
+/*projects*/
+/*contact*/
+.contact{
+    background-color: #f8f9fa;
+    border-radius: 20px;
+}
+
+.contact-btn{
+    background: linear-gradient(180deg, #1e30f3 0% , #e21e80 100%);
+    border-radius: 10px;
+}
+/*contact*/
+/*resume*/
+.card-right{
+    background-color: #f8f9fa;
+    border-radius: 20px;
+}
+
+.card-item{
+    background-color: #f8f9fa;
+    border-radius: 15px;
+}
+/*resume*/
